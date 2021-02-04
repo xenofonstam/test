@@ -16,6 +16,13 @@ actions:
         example: '{"data": "testing"}'
         schema:
           type: string
+      - name: list_data
+        description: The list to handle 
+        required: true
+        multiline: true
+        example: '{"data": "testing"}'
+        schema:
+          type: string
       - name: function_to_execute 
         description: The selected python function to run
         required: true
