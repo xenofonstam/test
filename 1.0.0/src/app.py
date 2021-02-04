@@ -20,12 +20,15 @@ class PythonPlayground(AppBase):
         super().__init__(redis, logger, console_logger)
 
     def run_me_1(self, json_data): 
-        return "Ran function 1"
+        return "Fuck Off"
 
     def run_me_2(self, json_data): 
         return "Ran function 2"
 
     def run_me_3(self, json_data): 
+        return "Ran function 3"
+    
+    def random_fun(self, json_data): 
         return "Ran function 3"
 
     # Write your data inside this function
@@ -41,6 +44,7 @@ class PythonPlayground(AppBase):
             "function_1" : self.run_me_1,
             "function_2" : self.run_me_2,
             "function_3" : self.run_me_3,
+            "function_53" : self.random_fun,
         }
 
         func = switcher.get(function_to_execute, lambda: "Invalid function")
