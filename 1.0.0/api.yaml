@@ -16,7 +16,7 @@ actions:
         example: '{"data": "testing"}'
         schema:
           type: string
-      - name: list_data
+      - name: json_data
         description: The list to handle 
         required: true
         multiline: true
