@@ -44,7 +44,7 @@ class PythonPlayground(AppBase):
             "function_1" : self.run_me_1,
             "function_2" : self.run_me_2,
             "function_3" : self.run_me_3,
-            "function_53" : self.random_fun,
+            "function_random" : self.random_fun,
         }
 
         func = switcher.get(function_to_execute, lambda: "Invalid function")
