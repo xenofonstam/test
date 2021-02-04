@@ -24,6 +24,8 @@ actions:
         options: 
           - function_1 
           - function_2 
+          - function_3
+          - function_random
         schema:
           type: string
     returns:
