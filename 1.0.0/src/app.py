@@ -31,7 +31,7 @@ class PythonPlayground(AppBase):
     def test_fun(self, json_data, json_datas): 
         x={}
         x["first"]=json_data
-        return x
+        return json.dumps(x)
 
     # Write your data inside this function
     async def run_python_script(self, json_data,json_datas, function_to_execute):
