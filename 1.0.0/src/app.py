@@ -3,8 +3,9 @@ import asyncio
 import time
 import random
 import json
-
+from template.py import template as jp 
 from walkoff_app_sdk.app_base import AppBase
+import template
 
 class PythonPlayground(AppBase):
     __version__ = "1.0.0"
@@ -20,7 +21,7 @@ class PythonPlayground(AppBase):
         super().__init__(redis, logger, console_logger)
 
     def run_me_1(self, json_data): 
-        return json_data
+        return template.apply_template(json_data)
 
     def run_me_2(self, json_data): 
         return "Ran function 2"
