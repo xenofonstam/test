@@ -50,7 +50,7 @@ class PythonPlayground(AppBase):
         }
 
         func = switcher.get(function_to_execute, lambda: "Invalid function")
-        return func(json_data)
+        return func(json_data,json_datas)
 
 if __name__ == "__main__":
     asyncio.run(PythonPlayground.run(), debug=True)
