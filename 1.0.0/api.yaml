@@ -34,7 +34,7 @@ actions:
           - function_3
           - test_function
         schema:
-          type: string
+          type: dict
     returns:
       schema:
         type: dict
