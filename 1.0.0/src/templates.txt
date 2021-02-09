@@ -1,0 +1,10 @@
+image="![enter image description here](https://secureops1.com/wp-content/uploads/2018/06/logo-2.png)"
+
+Test_Rule={"logo":image,"template":""" On {0} the alert Test_Rule was triggered after the {1} request
+was logged towards {2} with return code {3}
+
+Event Details:
+{0}
+{1}
+{2}
+{3}""".format(*event_list)}
