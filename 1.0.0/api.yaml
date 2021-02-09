@@ -32,7 +32,7 @@ actions:
           - function_1 
           - function_2 
           - function_3
-          - function_random
+          - test_function
         schema:
           type: string
     returns:
