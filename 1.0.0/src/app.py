@@ -28,8 +28,10 @@ class PythonPlayground(AppBase):
     def run_me_3(self, json_data): 
         return "Ran function 3"
     
-    def random_fun(self, json_data): 
-        return "Ran function 3"
+    def test_fun(self, json_data): 
+        x={}
+        x["first"]=json_data
+        return "x"
 
     # Write your data inside this function
     async def run_python_script(self, json_data, function_to_execute):
@@ -44,7 +46,7 @@ class PythonPlayground(AppBase):
             "function_1" : self.run_me_1,
             "function_2" : self.run_me_2,
             "function_3" : self.run_me_3,
-            "function_random" : self.random_fun,
+            "test_function" : self.test_fun,
         }
 
         func = switcher.get(function_to_execute, lambda: "Invalid function")
