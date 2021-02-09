@@ -3,7 +3,6 @@ import asyncio
 import time
 import random
 import json
-from template.py import template as jp 
 from walkoff_app_sdk.app_base import AppBase
 
 class PythonPlayground(AppBase):
