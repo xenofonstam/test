@@ -7,4 +7,4 @@ Event Details:
 {0}
 {1}
 {2}
-{3}""".format(*event_list)}
+{3}""".format(*Test_Rule["arg"])}
