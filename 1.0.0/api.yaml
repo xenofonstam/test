@@ -15,7 +15,7 @@ actions:
         multiline: true
         example: '{"data": "testing"}'
         schema:
-          type: string
+          type: dict
       - name: json_data
         description: The list to handle 
         required: true
