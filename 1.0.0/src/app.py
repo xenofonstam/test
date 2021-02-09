@@ -20,7 +20,7 @@ class PythonPlayground(AppBase):
         super().__init__(redis, logger, console_logger)
 
     def run_me_1(self, json_data): 
-        return "Fuck Off"
+        return json_data
 
     def run_me_2(self, json_data): 
         return "Ran function 2"
