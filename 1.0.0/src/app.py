@@ -5,7 +5,7 @@ import random
 import json
 from template.py import template as jp 
 from walkoff_app_sdk.app_base import AppBase
-import template
+import templates
 
 class PythonPlayground(AppBase):
     __version__ = "1.0.0"
