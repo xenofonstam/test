@@ -7,7 +7,7 @@ def apply_template(jp):
     image="![enter image description here](https://secureops.com/wp-content/uploads/2018/06/logo-2.png)"
     template= ""
     switcher = {
-        "Malicious-Get-Requet": image+"""\n\n\nOn {0} the alert {1} was triggered after the {2} request was logged towards {3} with return code {4}\n\n\n
+        "Malicious-Get-Request": image+"""\n\n\nOn {0} the alert {1} was triggered after the {2} request was logged towards {3} with return code {4}\n\n\n
         Event Details:
         time:{0}
         Rule Name: {1}
