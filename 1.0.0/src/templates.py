@@ -1,3 +1,4 @@
+import json
 def apply_template(jp):
     try:
         jp = json.loads(jp)
