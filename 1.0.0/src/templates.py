@@ -1,10 +1,10 @@
 import json
 def apply_template(jp):
-    try:
+'''    try:
         jp = json.loads(jp)
     except json.decoder.JSONDecodeError as e:
         return "Couldn't decode json: %s" % e
-    
+    '''
     image="![enter image description here](https://secureops.com/wp-content/uploads/2018/06/logo-2.png)"
     templ= ""
     switcher = {
